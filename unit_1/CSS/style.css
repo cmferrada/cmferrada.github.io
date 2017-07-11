@@ -1,4 +1,9 @@
-body {background-color: #48D1CC; }
+body {
+	background-color: #48D1CC;
+	font-family: Helvetica, sans-serif; 
+}
 
 
-h1, p {color: #F5F5F5; }
+h1, p {
+	color: #F5F5F5; 
+}
