@@ -1,14 +1,30 @@
 body {
   background-image: url("http://imgur.com/a/yOUu2");
   background-size: cover;
-  background-color: FFFFFF;
-
 }
-h1
+
+h1 {
+	font-size: 50px;
+	font-weight:200;
+}
+
+a {
+	text-decoration: none;
+}
+
 p
-ul
+
+aside {text-align: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
 li
+
 img
+
 #slogan {
 	font-style: italic;
 }
