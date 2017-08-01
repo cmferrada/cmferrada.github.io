@@ -14,31 +14,25 @@ header {
 	background-image: url(../images/IMG_5179.jpg);
 	background-position: center;
 	padding-top: 100px;
-	padding-bottom: 200px;
+	padding-bottom: 250px;
 	background-size: cover;
 	color: #FFFFFF;
 	text-align: right;
 }
 
 main {
+	text-align: left; 
+	margin: 20px;
+	padding: 10px;
 }
 
-footer {
-	text-align: center;
-}
+#santa_barbara {
+	border: 1px;
+	border-style: solid;
+	border-color: #333333;
 
 
-h1 {
-	font-size: 60px;
-	font-weight:100;
-	text-align: left;
-	margin-left: 220px;
-}
-
-a {
-	text-decoration: none;
-}
-
+} 
 
 aside {
 	text-align: center; 
@@ -49,21 +43,46 @@ aside {
 	border-color: #333333;
 }
 
+
+footer {
+	text-align: center;
+	border: 1px;
+	border-style: solid;
+	border-color: #333333;
+	margin: 5px;
+}
+
+
+h1 {
+	font-size: 60px;
+	font-weight:100;
+	text-align: left;
+	margin-left: 220px;
+}
+
+h2 {
+	font-size: 20px;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
 ul {
     list-style-type: none;
     padding: 50px;
 }
 
 
-.right {
-}
 
 #slogan {
 	font-style: italic;
 	font-size: 16px;
-	padding-top: 250px;
-	margin-right: 200px;
+	padding-top: 200px;
+	margin-right: 230px;
 }
+
 
 #blurb {
 	margin-left: 350px;
