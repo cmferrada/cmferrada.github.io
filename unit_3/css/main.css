@@ -27,6 +27,7 @@ header {
 
 main {
 	text-align: left;
+	padding-top: 50px;
 }
 
 #santa_barbara {
@@ -76,13 +77,16 @@ h2 {
 }
 
 h3 {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 h4 {
 	font-size: 30px;
 }
 
+p {
+	letter-spacing: 1.5px;
+}
 
 img {
 	max-width: 700px;
@@ -103,9 +107,9 @@ ul {
 }
 
 #slogan {
-	font-size: 21px;
+	font-size: 20px;
 	padding-top: 200px;
-	margin-right: 200px;
+	margin-right: 180px;
 }
 
 
@@ -114,11 +118,3 @@ ul {
 	margin-right: 350px;
 }
 
-#statement {
-	font-family: Abril Fatface, Georgia, serif;
-	font-weight: 600;
-	font-size: 18px;
-	font-weight: 600;
-	text-align: center;
-
-}
