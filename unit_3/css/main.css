@@ -1,11 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,700");
+
+
 * {
 	padding: 0;
 	margin: 0;
 }
 
 body {
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 12px;
+	font-family: Quicksand, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
 	color: #222222;
 	line-height: 1.5;
 }
@@ -21,16 +26,17 @@ header {
 }
 
 main {
+	text-align: left;
 }
 
 #santa_barbara {
 	text-align: left; 
 	margin: 20px;
-	padding: 10px;
+	padding: 15px;
 	border: 1px;
 	border-style: solid;
 	border-color: #333333;
-
+	max-width: 700px;
 
 } 
 
@@ -52,17 +58,34 @@ footer {
 	margin: 5px;
 }
 
+h1, h2, h3, h4 {
+	font-family: Abril Fatface, Georgia, serif;
+}
 
 h1 {
-	font-size: 60px;
-	font-weight:100;
+	font-size: 70px;
+	font-weight: 100;
 	text-align: left;
 	margin-left: 220px;
 }
 
 h2 {
-	font-size: 20px;
-	text-align: left;
+	font-size: 24px;
+	font-family: Abril Fatface, Georgia, serif; 
+	font-weight: lighter;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+
+img {
+	max-width: 700px;
 }
 
 a {
@@ -75,12 +98,14 @@ ul {
 }
 
 
+.location {
+	font-size: 20px;
+}
 
 #slogan {
-	font-style: italic;
-	font-size: 16px;
+	font-size: 21px;
 	padding-top: 200px;
-	margin-right: 230px;
+	margin-right: 200px;
 }
 
 
@@ -90,7 +115,10 @@ ul {
 }
 
 #statement {
+	font-family: Abril Fatface, Georgia, serif;
 	font-weight: 600;
-	font-size: 14px;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
 
 }
