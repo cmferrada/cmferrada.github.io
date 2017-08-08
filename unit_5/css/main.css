@@ -11,7 +11,7 @@ body {
 	color: #222222;
 }
 
-header {
+#main_header {
 	background-image: url(../images/IMG_5179.jpg);
 	background-position: center;
 	padding-top: 6.25em;
@@ -30,9 +30,7 @@ main {
 	text-align: left; 
 	margin: 1.25em;
 	padding: 1.25em;
-	border: 1px;
-	border-style: solid;
-	border-color: #333333;
+	border: 1px #333333 solid;
 	max-width: 45em;
 
 } 
@@ -40,20 +38,21 @@ main {
 aside {
 	text-align: center; 
 	padding: 2em;
-	border: 1px;
-	border-style: solid;
-	border-color: #333333;
+	border: 1px #333333 solid;
 	margin: 1.25em;
+	display: block;
 }
 
 
 footer {
 	text-align: center;
-	border: 1px;
-	border-style: solid;
-	border-color: #333333;
+	border: 1px #333333 solid;
 	margin: 1.25em;
 	font-weight: 500;
+}
+
+nav {
+	display: inline;
 }
 
 h1, h2, h3 {
@@ -70,7 +69,7 @@ h1 {
 h2 {
 	font-size: 1.5em;
 	font-family: Abril Fatface, Georgia, serif; 
-	font-weight: lighter;
+	display: inline;
 }
 
 h3 {
@@ -78,9 +77,6 @@ h3 {
 	text-align: right;
 }
 
-h4 {
-	font-size: 1.875em;
-}
 
 p {
 	letter-spacing: 1.50px;
@@ -89,7 +85,8 @@ p {
 
 img {
 	max-width: 45em;
-	margin: 1em 0;
+	margin: 1em auto;
+	display: block;
 }
 
 a {
@@ -107,9 +104,15 @@ hr{
 	margin: .25em 0;
 }
 
+.article_header {
+	display: inline;
+}
+
 .asidelinks {
 	text-decoration:none;
 	border-bottom: none;
+	display: block;
+	margin: 0;
 }
 
 .navlinks {
@@ -120,6 +123,7 @@ hr{
 
 .location {
 	font-size: 1.25em;
+	display: inline;
 }
 
 #slogan {
