@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Quicksand:300,400,700");
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Quicksand, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #222222;
+}
+
+header {
+	background-image: url(../images/IMG_5179.jpg);
+	background-position: center;
+	padding-top: 6.25em;
+	padding-bottom: 15.625em;
+	background-size: cover;
+	color: #FFFFFF;
+	text-align: right;
+}
+
+main {
+	text-align: left;
+	padding-top: 3.125em;
+}
+
+#santa_barbara {
+	text-align: left; 
+	margin: 1.25em;
+	padding: 1.25em;
+	border: 1px;
+	border-style: solid;
+	border-color: #333333;
+	max-width: 45em;
+
+} 
+
+aside {
+	text-align: center; 
+	padding: 2em;
+	border: 1px;
+	border-style: solid;
+	border-color: #333333;
+	margin: 1.25em;
+}
+
+
+footer {
+	text-align: center;
+	border: 1px;
+	border-style: solid;
+	border-color: #333333;
+	margin: 1.25em;
+	font-weight: 500;
+}
+
+h1, h2, h3 {
+	font-family: Abril Fatface, Georgia, serif;
+}
+
+h1 {
+	font-size: 4.375em;
+	font-weight: 100;
+	text-align: left;
+	margin-left: 3em;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-family: Abril Fatface, Georgia, serif; 
+	font-weight: lighter;
+}
+
+h3 {
+	font-size: 1.125em;
+	text-align: right;
+}
+
+h4 {
+	font-size: 1.875em;
+}
+
+p {
+	letter-spacing: 1.50px;
+	line-height: 1.5em;
+}
+
+img {
+	max-width: 45em;
+	margin: 1em 0;
+}
+
+a {
+	text-decoration:none;
+	color: #333333;
+	border-bottom: 1px solid #000;
+	padding-bottom:2px;
+}
+
+hr{
+	border:none;
+	height:1px;
+	background-color: #333333;
+	width: 45em;
+	margin: .25em 0;
+}
+
+.asidelinks {
+	text-decoration:none;
+	border-bottom: none;
+}
+
+.navlinks {
+	text-decoration:none;
+	border-bottom: none;
+	margin: 0 3em;
+}
+
+.location {
+	font-size: 1.25em;
+}
+
+#slogan {
+	font-size: 1.25em;
+	margin-top: 10em;
+	margin-right: 8em;
+	font-weight: 400;
+}
+
+
+#blurb {
+	margin: 1em auto;
+	width: 30em;
+}
+

@@ -99,6 +99,14 @@ a {
 	padding-bottom:2px;
 }
 
+hr{
+	border:none;
+	height:1px;
+	background-color: #333333;
+	width: 45em;
+	margin: .25em 0;
+}
+
 .asidelinks {
 	text-decoration:none;
 	border-bottom: none;
