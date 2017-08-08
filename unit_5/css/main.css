@@ -12,13 +12,23 @@ body {
 }
 
 #main_header {
-	background-image: url(../images/IMG_5179.jpg);
-	background-position: center;
-	padding-top: 6.25em;
-	padding-bottom: 15.625em;
+	/*background-image: url(../images/IMG_5179.jpg);
+	background-position: center;*/
+	/*padding-top: 6.25em;
+	padding-bottom: 15.625em;*/
 	background-size: cover;
 	color: #FFFFFF;
 	text-align: right;
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
 }
 
 main {
@@ -26,33 +36,47 @@ main {
 	padding-top: 3.125em;
 }
 
+
+
 article {
 	text-align: left; 
 	margin: 1.25em;
-	padding: 1.25em;
-	border: 1px #333333 solid;
+	/*padding: 1.25em;
+	border: 1px #333333 solid;*/
 	max-width: 45em;
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
 
 } 
 
 aside {
 	text-align: center; 
-	padding: 2em;
-	border: 1px #333333 solid;
+	/*padding: 2em;
+	border: 1px #333333 solid;*/
 	margin: 1.25em;
 	display: block;
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 
 footer {
 	text-align: center;
-	border: 1px #333333 solid;
+	/*border: 1px #333333 solid;*/
 	margin: 1.25em;
 	font-weight: 500;
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 nav {
 	display: inline;
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 h1, h2, h3 {
