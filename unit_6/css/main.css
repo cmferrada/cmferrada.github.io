@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Quicksand:300,400,700");
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Quicksand, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #222222;
+}
+
+#main_header {
+	/*background-image: url(../images/IMG_5179.jpg);
+	background-position: center;*/
+	/*padding-top: 6.25em;
+	padding-bottom: 15.625em;*/
+	background-size: cover;
+	color: #FFFFFF;
+	text-align: right;
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+}
+
+main {
+	text-align: left;
+	padding-top: 3.125em;
+	float: left;
+}
+
+
+
+article {
+	text-align: left; 
+	margin: 1.25em;
+	/*padding: 1.25em;
+	border: 1px #333333 solid;*/
+	max-width: 45em;
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+} 
+
+aside {
+	text-align: center; 
+	/*padding: 2em;
+	border: 1px #333333 solid;*/
+	margin: 1.25em;
+	display: block;
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+}
+
+
+footer {
+	text-align: center;
+	/*border: 1px #333333 solid;*/
+	margin: 1.25em;
+	font-weight: 500;
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+	display: inline;
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+	font-family: Abril Fatface, Georgia, serif;
+}
+
+h1 {
+	font-size: 4.375em;
+	font-weight: 100;
+	text-align: left;
+	margin-left: 3em;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-family: Abril Fatface, Georgia, serif; 
+	display: inline;
+}
+
+h3 {
+	font-size: 1.125em;
+	text-align: right;
+}
+
+
+p {
+	letter-spacing: 1.50px;
+	line-height: 1.5em;
+	margin: 1.5em 0;
+}
+
+img {
+	max-width: 45em;
+	margin: 1em auto;
+	display: block;
+}
+
+a {
+	text-decoration:none;
+	color: #333333;
+	border-bottom: 1px solid #000;
+	padding-bottom:2px;
+}
+
+hr{
+	border:none;
+	height:1px;
+	background-color: #333333;
+	width: 45em;
+	margin: .25em 0;
+}
+
+.article_header {
+	display: inline;
+}
+
+.asidelinks {
+	text-decoration:none;
+	border-bottom: none;
+	display: block;
+	margin: 0;
+}
+
+.navlinks {
+	text-decoration:none;
+	border-bottom: none;
+	margin: 0 3em;
+}
+
+.location {
+	font-size: 1.5em;
+	display: inline;
+}
+
+#slogan {
+	font-size: 1.25em;
+	margin-top: 10em;
+	margin-right: 8em;
+	font-weight: 400;
+}
+
+
+#blurb {
+	margin: 1em auto;
+	width: 30em;
+}
+
