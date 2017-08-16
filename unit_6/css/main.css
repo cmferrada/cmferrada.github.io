@@ -12,7 +12,7 @@ body {
 	color: #222222;
 }
 
-#wrapper {
+#sitewrapper {
 	max-width: 87.5em;
 	margin: 0 auto;
 }
@@ -28,6 +28,37 @@ body {
 	margin: 0 1.25em 1.75em 1.25em;
 }
 
+#topnav {
+	border: 1px #666666 solid;
+	margin: 1em 1.25em;
+	padding: 1em;
+	background: white;
+}
+
+#topnav:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0; 
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+
+.toplinks {
+	display: inline-block;
+	float: left;
+	padding: 0 2em;
+	text-decoration: none;
+	border-bottom: none;
+	font-weight: 400;
+	letter-spacing: 1.50px;
+}
+
+.toplinks:hover {
+	font-weight: 700;
+	color: black;
+}
+
 section {
 }
 
@@ -41,32 +72,19 @@ article {
 	margin: 2em 1.25em 1.25em 1.25em;
 	padding: 2em;
 	border: 1px #666666 solid;
-	max-width: 45em;
+	width: 45em;
 	background: white;
 } 
 
 aside {
 	width: 18em;
 	text-align: center; 
-	padding: 3em;
+	padding: 2em;
 	border: 1px #666666 solid;
 	margin: 2em 1.25em 1.25em 1.25em;
 	display: block;
 	float: right;
 	background: white;
-}
-
-
-footer {
-	border: 1px #666666 solid;
-	margin: 1.25em;
-	clear: both;
-	padding: 1em;
-	background: white;
-}
-
-nav {
-	display: inline;
 }
 
 h1, h2, h3 {
@@ -119,40 +137,6 @@ hr{
 	margin: .25em 0;
 }
 
-.article_header {
-	display: inline;
-}
-
-.toplinks {
-	margin: 1em;
-	padding: 1em;
-	text-decoration:none;
-	border-bottom: none;
-	font-weight: 400;
-	letter-spacing: 1.50px;
-}
-
-.footerlinks {
-	text-decoration:none;
-	border-bottom: none;
-	margin: 0 4em;
-	padding-top: .5em;
-	float: right;
-	font-weight: 400;
-	letter-spacing: 1.50px;
-}
-
-.location {
-	font-size: 1.5em;
-	display: inline;
-}
-
-#topnav {
-	border: 1px #666666 solid;
-	margin: 1.25em;
-	padding: 1em;
-}
-
 #slogan {
 	font-size: 1.25em;
 	margin-top: 10em;
@@ -160,12 +144,21 @@ hr{
 	font-weight: 400;
 }
 
+.article_header {
+	display: inline;
+}
+
+.location {
+	font-size: 1.5em;
+	display: inline;
+}
+
 #blurb {
 	margin: 1em auto;
 }
 
 #followpic {
-	background: url(../images/thumbnails/hike.jpg);
+	background-image: url(../images/thumbnails/hike.jpg);
 	background-position: fill;
 	width: 250px;
 	height: 150px;
@@ -174,22 +167,65 @@ hr{
 	border-bottom: none;
 	color: #FFFFFF;
 	font-weight: 700;
+	text-align: center;
 	letter-spacing: .4em;
+	line-height: 5em;
 	margin: 1em;
+}
+
+#followpic:hover {
+	background: #666666;
 }
 
 #destinationpic {
 	background: url(../images/thumbnails/portland.jpg);
-	background-position: center;
+	background-position: fill;
 	width: 250px;
 	height: 150px;
 	display: block;
 	text-decoration: none;
 	border-bottom: none;
-	color: #FFFFFF;
 	font-weight: 700;
+	color: #FFFFFF;
+	text-align: center;
 	letter-spacing: .4em;
-	padding: 1em auto;
+	line-height: 10em;
 	margin: 1em;
 }
 
+#destinationpic:hover {
+	background: #666666;
+}
+
+footer {
+	display: inline-block;
+	border: 1px #666666 solid;
+	margin: 1em 1.25em;
+	clear: both;
+	padding: 1em;
+	background: white;
+}
+
+#footernav {
+}
+
+#footerleft {
+	float:left;
+	margin-right: 10em;
+}
+
+.footerlinks {
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: none;
+	margin: 0 4em;
+	padding-top: .5em;
+	float: right;
+	font-weight: 400;
+	letter-spacing: 1.50px;
+}
+
+.footerlinks:hover {
+	font-weight: 700;
+	color: black;
+}
