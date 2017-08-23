@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Quicksand:300,400,700");
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Quicksand, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #222222;
+}
+
+#sitewrapper {
+	max-width: 87.5em;
+	margin: 0 auto;
+}
+
+#main_header {
+	background-image: url(../images/IMG_5179.jpg);
+	background-position: center;
+	padding-top: 6.25em;
+	padding-bottom: 13em;
+	background-size: cover;
+	color: #FFFFFF;
+	text-align: right;
+	margin: 0 1.25em 1.75em 1.25em;
+}
+
+#topnav {
+	border: 1px #666666 solid;
+	margin: 1em 1.25em;
+	padding: 1em;
+	background: white;
+}
+
+#topnav:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0; 
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+
+.toplinks {
+	display: inline-block;
+	float: left;
+	padding: 0 2em;
+	text-decoration: none;
+	border-bottom: none;
+	font-weight: 400;
+	letter-spacing: 1.50px;
+}
+
+.toplinks:hover {
+	font-weight: 700;
+	color: black;
+}
+
+section {
+}
+
+main {
+	text-align: left;
+	float: left;
+}
+
+article {
+	text-align: left; 
+	margin: 2em 1.25em 1.25em 1.25em;
+	padding: 2em;
+	border: 1px #666666 solid;
+	width: 45em;
+	background: white;
+} 
+
+aside {
+	width: 18em;
+	text-align: center; 
+	padding: 2em;
+	border: 1px #666666 solid;
+	margin: 2em 1.25em 1.25em 1.25em;
+	display: block;
+	float: right;
+	background: white;
+}
+
+h1, h2, h3 {
+	font-family: Abril Fatface, Georgia, serif;
+}
+
+h1 {
+	font-size: 4.375em;
+	font-weight: 100;
+	text-align: left;
+	margin-left: 3em;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-family: Abril Fatface, Georgia, serif; 
+	display: inline;
+}
+
+h3 {
+	font-size: 1.125em;
+	text-align: right;
+}
+
+
+p {
+	letter-spacing: 1.50px;
+	line-height: 1.5em;
+	margin: 1.5em 0;
+}
+
+img {
+	max-width: 45em;
+	margin: 1em auto;
+	display: block;
+}
+
+a {
+	text-decoration:none;
+	color: #333333;
+	border-bottom: 1px solid #000;
+	padding-bottom:2px;
+}
+
+hr{
+	border:none;
+	height:1px;
+	background-color: #333333;
+	width: 45em;
+	margin: .25em 0;
+}
+
+#slogan {
+	font-size: 1.25em;
+	margin-top: 10em;
+	margin-right: 8em;
+	font-weight: 400;
+}
+
+.article_header {
+	display: inline;
+}
+
+.location {
+	font-size: 1.5em;
+	display: inline;
+}
+
+#blurb {
+	margin: 1em auto;
+}
+
+#followpic {
+	background-image: url(../images/thumbnails/hike.jpg);
+	background-position: fill;
+	width: 250px;
+	height: 150px;
+	display: block;
+	text-decoration: none;
+	border-bottom: none;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: .4em;
+	line-height: 5em;
+	margin: 1em;
+}
+
+#followpic:hover {
+	background: #666666;
+}
+
+#destinationpic {
+	background: url(../images/thumbnails/portland.jpg);
+	background-position: fill;
+	width: 250px;
+	height: 150px;
+	display: block;
+	text-decoration: none;
+	border-bottom: none;
+	font-weight: 700;
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: .4em;
+	line-height: 10em;
+	margin: 1em;
+}
+
+#destinationpic:hover {
+	background: #666666;
+}
+
+footer {
+	display: inline-block;
+	border: 1px #666666 solid;
+	margin: 1em 1.25em;
+	clear: both;
+	padding: 1em;
+	background: white;
+}
+
+#footernav {
+}
+
+#footerleft {
+	float:left;
+	margin-right: 10em;
+}
+
+.footerlinks {
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: none;
+	margin: 0 4em;
+	padding-top: .5em;
+	float: right;
+	font-weight: 400;
+	letter-spacing: 1.50px;
+}
+
+.footerlinks:hover {
+	font-weight: 700;
+	color: black;
+}
