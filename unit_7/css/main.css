@@ -89,6 +89,10 @@ aside {
 	background: white;
 }
 
+.aside {
+	margin: 1em auto;
+}
+
 h1, h2, h3 {
 	font-family: Abril Fatface, Georgia, serif;
 }
@@ -120,12 +124,12 @@ p {
 
 img {
 	max-width: 45em;
-	margin: 1em auto;
+	margin: 1em 0;
 	display: block;
 }
 
 a {
-	text-decoration:none;
+	text-decoration: none;
 	color: #333333;
 	border-bottom: 1px solid #000;
 	padding-bottom:2px;
@@ -155,12 +159,9 @@ hr{
 	display: inline;
 }
 
-#blurb {
+.asidepics {
 	margin: 1em auto;
-}
-
-#followpic {
-	background-image: url(../images/thumbnails/hike.jpg);
+	background-repeat: no-repeat;
 	background-position: cover;
 	width: 250px;
 	height: 150px;
@@ -172,10 +173,20 @@ hr{
 	text-align: center;
 	letter-spacing: .4em;
     line-height: 1em;
+  	display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 1em;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+#followpic {
+	background-image: url(../images/thumbnails/hike.jpg);
 }
 
 #followpic:hover {
@@ -183,23 +194,31 @@ hr{
 }
 
 #destinationpic {
-	background: url(../images/thumbnails/portland.jpg);
-	background-position: fill;
-	width: 250px;
-	height: 150px;
-	display: block;
-	text-decoration: none;
-	border-bottom: none;
-	font-weight: 700;
-	color: #FFFFFF;
-	text-align: center;
-	letter-spacing: .4em;
-	line-height: 10em;
-	margin: 1em;
+	background-image: url(../images/thumbnails/portland.jpg);
 }
 
 #destinationpic:hover {
 	background: #666666;
+}
+
+#airbnbpic {
+	background-image: url(../images/thumbnails/garage.jpg);
+}
+
+#restaurantpic {
+	background-image: url(../images/thumbnails/brunch.jpg);
+}
+
+#barpic {
+	background-image: url(../images/thumbnails/cocktails.jpg);
+}
+
+#activitypic {
+	background-image: url(../images/thumbnails/wine.jpg);
+}
+
+#contactpic {
+	background-image: url(../images/thumbnails/pool.jpg);
 }
 
 footer {
