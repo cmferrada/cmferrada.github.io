@@ -7,7 +7,7 @@
 
 body {
 	font-family: Quicksand, Helvetica, sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 300;
 	color: #222222;
 }
@@ -15,8 +15,8 @@ body {
 #sitewrapper {
 	max-width: 87.5em;
 	margin: 0 auto;
-	padding: 1.25em;
-	background-color: #7e6ff3;
+	padding: 1em 5em;
+/*	background-color: #7e6ff3;*/
 }
 
 #main_header {
@@ -73,7 +73,7 @@ section {
 main {
 	text-align: left;
 	float: left;
-	width: 60%;
+	width: 65%;
 }
 
 article {
@@ -166,6 +166,7 @@ hr{
 }
 
 .asidepics {
+	font-size: 1.25em;
 	margin: 1em auto;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -177,7 +178,7 @@ hr{
 	color: #FFFFFF;
 	font-weight: 700;
 	text-align: center;
-	letter-spacing: .35em;
+	letter-spacing: .25em;
     line-height: 1em;
   	display: -webkit-box;
     display: -ms-flexbox;
