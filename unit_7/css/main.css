@@ -162,7 +162,7 @@ hr{
 .asidepics {
 	margin: 1em auto;
 	background-repeat: no-repeat;
-	background-position: cover;
+	background-size: cover;
 	width: 250px;
 	height: 150px;
 	display: block;
@@ -185,12 +185,13 @@ hr{
             flex-direction: column;
 }
 
+
 #followpic {
 	background-image: url(../images/thumbnails/hike.jpg);
 }
 
 #followpic:hover {
-	background: #666666;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/hike.jpg);
 }
 
 #destinationpic {
@@ -198,28 +199,49 @@ hr{
 }
 
 #destinationpic:hover {
-	background: #666666;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/portland.jpg);
 }
 
 #airbnbpic {
 	background-image: url(../images/thumbnails/garage.jpg);
 }
 
+#airbnbpic:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/garage.jpg);
+}
+
 #restaurantpic {
 	background-image: url(../images/thumbnails/brunch.jpg);
+}
+
+#restaurantpic:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/brunch.jpg);
 }
 
 #barpic {
 	background-image: url(../images/thumbnails/cocktails.jpg);
 }
 
+#barpic:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/cocktails.jpg);
+}
+
 #activitypic {
 	background-image: url(../images/thumbnails/wine.jpg);
+}
+
+#activitypic:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/wine.jpg);
 }
 
 #contactpic {
 	background-image: url(../images/thumbnails/pool.jpg);
 }
+
+#contactpic:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/pool.jpg);
+}
+
 
 footer {
 	display: inline-block;
