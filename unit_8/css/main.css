@@ -29,6 +29,12 @@ body {
 	text-align: right;
 }
 
+#divider {
+	padding: 1em;
+	width: 100%;
+	text-align: center;
+}
+
 #topnav {
 	border: 1px #666666 solid;
 	margin: 2em auto;
