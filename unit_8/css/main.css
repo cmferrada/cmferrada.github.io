@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Quicksand:300,400,700");
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Quicksand, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #222222;
+}
+
+#sitewrapper {
+	max-width: 87.5em;
+	margin: 0 auto;
+	padding: 1em 5em;
+/*	background-color: #7e6ff3;*/
+}
+
+#main_header {
+	background-image: url(../images/IMG_5179.jpg);
+	background-position: center;
+	padding-top: 6.25em;
+	padding-bottom: 13em;
+	background-size: cover;
+	color: #FFFFFF;
+	text-align: right;
+}
+
+#topnav {
+	border: 1px #666666 solid;
+	margin: 2em auto;
+	padding: 1em;
+	background: white;
+	width: 97%
+}
+
+#topnavwrapper {
+	margin: 0 auto;
+	text-align: center;
+	line-height: 2em;
+}
+
+.toplinks {
+	display: inline-block;
+	padding: 0 2em;
+	text-decoration: none;
+	border-bottom: none;
+	font-weight: 400;
+	letter-spacing: .15em;
+}
+
+.toplinks:hover {
+	font-weight: 700;
+	color: black;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0; 
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+
+
+section {
+}
+
+main {
+	text-align: left;
+	float: left;
+	width: 65%;
+}
+
+article {
+	text-align: left; 
+	margin: 2em 0;
+	padding: 2em;
+	border: 1px #666666 solid;
+	background: white;
+} 
+
+aside {
+	width: 20%;
+	text-align: center; 
+	padding: 2em;
+	border: 1px #666666 solid;
+	margin: 2em 0;
+	display: block;
+	float: right;
+	background: white;
+}
+
+.aside {
+	margin: 1em auto;
+}
+
+h1, h2, h3 {
+	font-family: Abril Fatface, Georgia, serif;
+}
+
+h1 {
+	font-size: 4.375em;
+	font-weight: 100;
+	text-align: left;
+	margin-left: 3em;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-family: Abril Fatface, Georgia, serif; 
+	display: inline;
+}
+
+h3 {
+	font-size: 1.125em;
+	text-align: right;
+}
+
+
+p {
+	letter-spacing: .1em;
+	line-height: 1.5em;
+	margin: 1.5em 0;
+}
+
+img {
+	max-width: 100%;
+	margin: 1em 0;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: #333333;
+	border-bottom: 1px solid #000;
+	padding-bottom:2px;
+}
+
+hr{
+	border:none;
+	height:1px;
+	background-color: #333333;
+	width: 100%;
+	margin: .25em 0;
+}
+
+#slogan {
+	font-size: 1.25em;
+	margin-top: 10em;
+	margin-right: 8em;
+	font-weight: 400;
+}
+
+.article_header {
+	display: inline;
+}
+
+.location {
+	font-size: 1.5em;
+	display: inline;
+}
+
+.asidepics {
+	font-size: 1.25em;
+	margin: 1em auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 250px;
+	height: 150px;
+	display: block;
+	text-decoration: none;
+	border-bottom: none;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: .25em;
+    line-height: 1em;
+  	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+
+#followpic {
+	background-image: url(../images/thumbnails/hike.jpg);
+}
+
+#followpic:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/hike.jpg);
+}
+
+#destinationpic {
+	background-image: url(../images/thumbnails/portland.jpg);
+}
+
+#destinationpic:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/portland.jpg);
+}
+
+#airbnbpic {
+	background-image: url(../images/thumbnails/garage.jpg);
+}
+
+#airbnbpic:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/garage.jpg);
+}
+
+#restaurantpic {
+	background-image: url(../images/thumbnails/brunch.jpg);
+}
+
+#restaurantpic:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/brunch.jpg);
+}
+
+#barpic {
+	background-image: url(../images/thumbnails/cocktails.jpg);
+}
+
+#barpic:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/cocktails.jpg);
+}
+
+#activitypic {
+	background-image: url(../images/thumbnails/wine.jpg);
+}
+
+#activitypic:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/wine.jpg);
+}
+
+#contactpic {
+	background-image: url(../images/thumbnails/pool.jpg);
+}
+
+#contactpic:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/pool.jpg);
+}
+
+footer {
+	display: inline-block;
+    border: 1px #666666 solid;
+    clear: both;
+    padding: 1em;
+    background: white;
+    width: 97%;
+}
+
+#footernav {
+}
+
+#footerleft {
+	float:left;
+	margin-right: 10em;
+}
+
+.footerlinks {
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: none;
+	margin: 0 4em;
+	padding-top: .5em;
+	float: right;
+	font-weight: 400;
+	letter-spacing: .15em;
+}
+
+.footerlinks:hover {
+	font-weight: 700;
+	color: black;
+}
