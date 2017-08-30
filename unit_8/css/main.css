@@ -15,15 +15,15 @@ body {
 #sitewrapper {
 	max-width: 87.5em;
 	margin: 0 auto;
-	padding: 1em 5em;
-/*	background-color: #7e6ff3;*/
+	padding: 1% 2.5%;
+	background-color: #7e6ff3;
 }
 
 #main_header {
 	background-image: url(../images/IMG_5179.jpg);
 	background-position: center;
-	padding-top: 6.25em;
-	padding-bottom: 13em;
+	padding-top: 5%;
+	padding-bottom: 15%;
 	background-size: cover;
 	color: #FFFFFF;
 	text-align: right;
@@ -37,8 +37,8 @@ body {
 
 #topnav {
 	border: 1px #666666 solid;
-	margin: 2em auto;
-	padding: 1em;
+	margin: 3% auto;
+	padding: 1.5%;
 	background: white;
 	width: 97%
 }
