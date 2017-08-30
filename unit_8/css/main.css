@@ -84,8 +84,8 @@ main {
 
 article {
 	text-align: left; 
-	margin: 2em 0;
-	padding: 2em;
+	margin: 5% 0;
+	padding: 5%;
 	border: 1px #666666 solid;
 	background: white;
 } 
@@ -93,16 +93,16 @@ article {
 aside {
 	width: 20%;
 	text-align: center; 
-	padding: 2em;
+	padding: 3%;
 	border: 1px #666666 solid;
-	margin: 2em 0;
+	margin: 3% 0;
 	display: block;
 	float: right;
 	background: white;
 }
 
 .aside {
-	margin: 1em auto;
+	margin: 5% auto;
 }
 
 h1, h2, h3 {
