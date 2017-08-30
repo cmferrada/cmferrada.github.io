@@ -26,7 +26,6 @@ body {
 	padding-bottom: 15%;
 	background-size: cover;
 	color: #FFFFFF;
-	text-align: right;
 }
 
 #slogan {
@@ -34,6 +33,7 @@ body {
 	margin-top: 16%;
 	margin-right: 10%;
 	font-weight: 400;
+	text-align: right;
 }
 
 /*#divider {
@@ -117,10 +117,10 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 4.375em;
+	font-size: 4.5em;
 	font-weight: 100;
 	text-align: left;
-	margin-left: 3em;
+	margin-left: 15%;
 }
 
 h2 {
@@ -290,6 +290,24 @@ footer {
 
 @media only screen and (max-width: 983px) {
 	.toplinks {
-	padding: 0 1%;
+		padding: 0 1%;
+	}
+	article {
+		padding: 3%;
+	}
+	aside {
+		width: 25%;
+	}
+}
+
+@media only screen and (max-width: 823px) {
+	main {
+		float: none;
+		width: 100%;
+	}
+	aside {
+		float: none;
+		margin: 5% auto;
+		width: 40%;
 	}
 }
