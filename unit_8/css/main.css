@@ -29,6 +29,13 @@ body {
 	text-align: right;
 }
 
+#slogan {
+	font-size: 1.25em;
+	margin-top: 16%;
+	margin-right: 10%;
+	font-weight: 400;
+}
+
 /*#divider {
 	padding: 1em;
 	width: 100%;
@@ -131,12 +138,12 @@ h3 {
 p {
 	letter-spacing: .1em;
 	line-height: 1.5em;
-	margin: 1.5em 0;
+	margin: 4% 0;
 }
 
 img {
 	max-width: 100%;
-	margin: 1em 0;
+	margin: 2% 0;
 	display: block;
 }
 
@@ -152,14 +159,7 @@ hr{
 	height:1px;
 	background-color: #333333;
 	width: 100%;
-	margin: .25em 0;
-}
-
-#slogan {
-	font-size: 1.25em;
-	margin-top: 10em;
-	margin-right: 8em;
-	font-weight: 400;
+	margin: 1% 0;
 }
 
 .article_header {
@@ -173,7 +173,7 @@ hr{
 
 .asidepics {
 	font-size: 1.25em;
-	margin: 1em auto;
+	margin: 7% auto;
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-width: 250px;
@@ -259,7 +259,7 @@ footer {
 	display: inline-block;
     border: 1px #666666 solid;
     clear: both;
-    padding: 1em;
+    padding: 1%;
     background: white;
     width: 97%;
 }
@@ -277,7 +277,7 @@ footer {
 	text-decoration: none;
 	border-bottom: none;
 	margin: 0 2%;
-	padding-top: .5em;
+	padding-top: .5%;
 	float: right;
 	font-weight: 400;
 	letter-spacing: .15em;
