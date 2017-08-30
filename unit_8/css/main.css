@@ -22,18 +22,18 @@ body {
 #main_header {
 	background-image: url(../images/IMG_5179.jpg);
 	background-position: center;
-	padding-top: 5%;
+	padding-top: 7%;
 	padding-bottom: 15%;
 	background-size: cover;
 	color: #FFFFFF;
 	text-align: right;
 }
 
-#divider {
+/*#divider {
 	padding: 1em;
 	width: 100%;
 	text-align: center;
-}
+}*/
 
 #topnav {
 	border: 1px #666666 solid;
@@ -51,7 +51,7 @@ body {
 
 .toplinks {
 	display: inline-block;
-	padding: 0 2em;
+	padding: 0 2%;
 	text-decoration: none;
 	border-bottom: none;
 	font-weight: 400;
