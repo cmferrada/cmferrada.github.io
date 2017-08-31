@@ -28,6 +28,20 @@ body {
 	color: #FFFFFF;
 }
 
+#hamburger {
+	width: 50px;
+	display:none;
+}
+
+#hamburger span {
+	height: 2px;
+	margin: 1px auto;
+	width: 100%;
+	background-color: black;
+	display: block;
+
+}
+
 #slogan {
 	font-size: 1.25em;
 	margin-top: 16%;
@@ -142,7 +156,7 @@ p {
 }
 
 img {
-	max-width: 100%;
+	width: 100%;
 	margin: 2% 0;
 	display: block;
 }
@@ -288,6 +302,10 @@ footer {
 	color: black;
 }
 
+#mobile {
+	display:none; 
+ }
+
 @media only screen and (max-width: 983px) {
 	.toplinks {
 		padding: 0 1%;
@@ -301,6 +319,16 @@ footer {
 }
 
 @media only screen and (max-width: 823px) {
+	#hamburger {
+		display: block;
+	}
+	#hamburger:hover ~ #mobile {
+		display:block;
+	}
+
+	#mobile a:hover {
+		display: block;
+	}
 	main {
 		float: none;
 		width: 100%;
