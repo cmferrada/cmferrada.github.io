@@ -120,19 +120,13 @@ article {
 	background: white;
 } 
 
-aside {
-	width: 20%;
-	text-align: center; 
-	padding: 3%;
-	border: 1px #666666 solid;
-	margin: 3% 0;
-	display: block;
-	float: right;
-	background: white;
+.article_header {
+	display: inline;
 }
 
-.aside {
-	margin: 5% auto;
+.location {
+	font-size: 1.5em;
+	display: inline;
 }
 
 h1, h2, h3 {
@@ -177,10 +171,6 @@ a {
 	padding-bottom:2px;
 }
 
-i {
-	font-size: 2em;
-}
-
 hr{
 	border:none;
 	height:1px;
@@ -189,13 +179,23 @@ hr{
 	margin: 1% 0;
 }
 
-.article_header {
-	display: inline;
+aside {
+	width: 20%;
+	text-align: center; 
+	padding: 3%;
+	border: 1px #666666 solid;
+	margin: 3% 0;
+	display: block;
+	float: right;
+	background: white;
 }
 
-.location {
-	font-size: 1.5em;
-	display: inline;
+.chevron {
+	margin: 0 auto;
+}
+
+.aside {
+	margin: 5% auto;
 }
 
 .asidepics {
