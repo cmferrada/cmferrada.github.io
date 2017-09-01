@@ -47,15 +47,22 @@ body {
 	font-size: 1.25em;
 	margin-top: 16%;
 	margin-right: 10%;
-	font-weight: 400;
 	text-align: right;
+	letter-spacing: .25em;
 }
 
 #divider {
-	margin: 2% auto;
-	padding: 1em;
-	width: 100%;
+	margin: 5% auto 2% auto;
 	text-align: center;
+	display: block;
+	letter-spacing: .25em;
+	line-height: 1em;
+}
+
+#travel {
+	margin: 1% auto;
+	padding: 0;
+	letter-spacing: .5em;
 }
 
 #topnav {
@@ -363,13 +370,10 @@ footer {
 		background-position: center;
 		background-size: cover;
 		height: 400px;
-		font-size: 1.25em;
 		margin: 2% auto;
 		font-weight: 400;
 		text-align: center;
 		color: #FFFFFF;
-		text-align: center;
-		letter-spacing: .25em;
 	    line-height: 1em;
 	  	display: -webkit-box;
 	    display: -ms-flexbox;
