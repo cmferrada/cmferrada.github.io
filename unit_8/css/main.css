@@ -29,17 +29,18 @@ body {
 }
 
 #hamburger {
-	width: 50px;
+	width: 35px;
 	display:none;
+	float: right;
+	margin-top: 2%;
 }
 
 #hamburger span {
-	height: 2px;
-	margin: 1px auto;
+	height: 4px;
+	margin: 2px auto;
 	width: 100%;
 	background-color: black;
 	display: block;
-
 }
 
 #slogan {
