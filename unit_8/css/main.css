@@ -51,11 +51,12 @@ body {
 	text-align: right;
 }
 
-/*#divider {
+#divider {
+	margin: 2% auto;
 	padding: 1em;
 	width: 100%;
 	text-align: center;
-}*/
+}
 
 #topnav {
 	border: 1px #666666 solid;
@@ -324,6 +325,10 @@ footer {
 }
 
 @media only screen and (max-width: 823px) {
+	.desktoponly {
+		display: none;
+	}
+
 	#hamburger {
 		display: block;
 	}
@@ -342,6 +347,15 @@ footer {
 		padding-bottom: 2%;
 		/*background-size: cover;*/
 		color: #222222;
+	}
+
+	h1 {
+		font-size: 2.5em;
+		font-weight: 100;
+		text-align: left;
+		padding-left: 1%;
+		margin: 0;
+		display: inline;
 	}
 
 	#slogan {
@@ -369,13 +383,10 @@ footer {
 	            flex-direction: column;
 	}
 
-	h1 {
-		font-size: 2.5em;
-		font-weight: 100;
-		text-align: left;
-		padding-left: 1%;
+	#topnav {
+		border: none;
 		margin: 0;
-		display: inline;
+		padding: 0;
 	}
 
 	main {
