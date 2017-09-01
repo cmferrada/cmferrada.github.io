@@ -344,6 +344,31 @@ footer {
 		color: #222222;
 	}
 
+	#slogan {
+		background-image: url(../images/IMG_5179.jpg);
+		background-position: center;
+		background-size: cover;
+		height: 400px;
+		font-size: 1.25em;
+		margin: 2% auto;
+		font-weight: 400;
+		text-align: center;
+		color: #FFFFFF;
+		text-align: center;
+		letter-spacing: .25em;
+	    line-height: 1em;
+	  	display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	            justify-content: center;
+	    -webkit-box-orient: vertical;
+	    -webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	            flex-direction: column;
+	}
+
 	h1 {
 		font-size: 2.5em;
 		font-weight: 100;
