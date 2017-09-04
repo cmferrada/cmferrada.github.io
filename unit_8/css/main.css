@@ -486,8 +486,26 @@ footer {
 	}
 	#mobileimg {
 	display: block;
+	position: 
 	}
 }
 
+@media only screen and (max-width: 580px) {
+	body {
+		font-size: 11px;
+	}
+}
+
+@media only screen and (max-width: 531px) {
+	footer {
+		text-align: center;
+	}
+	.footerlinks {
+		float: none;
+	}
+	#footerleft {
+		display: none;
+	}
+}
 
 
