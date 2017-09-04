@@ -13,7 +13,8 @@ body {
 }
 
 #sitewrapper {
-	max-width: 87.5em;
+	/*max-width: 87.5em;*/
+	width: 85%;
 	margin: 0 auto;
 	padding: 1% 2.5%;
 /*	background-color: #7e6ff3;*/
@@ -188,9 +189,9 @@ hr{
 }
 
 aside {
-	width: 20%;
+	width: 22%;
 	text-align: center; 
-	padding: 3%;
+	padding: 2%;
 	border: 1px #666666 solid;
 	margin: 3% 0;
 	display: block;
@@ -219,12 +220,18 @@ aside {
 	border-bottom: none;
 }
 
+#travelback:hover {
+	font-weight: 700;
+	color: black;
+}
+
 .aside {
 	margin: 5% auto;
+	text-align: center;
 }
 
 .asidepics {
-	font-size: 1.25em;
+	font-size: 1.15em;
 	margin: 7% auto;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -340,9 +347,16 @@ footer {
 	color: black;
 }
 
-#mobile {
+#mobilenav {
 	display:none; 
  }
+
+@media only screen and (min-width: 1800px) {
+	body { 
+	font-size: 22px;
+	 }
+}
+
 
 @media only screen and (max-width: 983px) {
 	.toplinks {
@@ -447,10 +461,4 @@ footer {
 
 @media only screen and (max-width: 605px) {
 	
-}
-
-@media only screen and (min-width: 1800px) {
-	body { 
-	font-size: 72px;
-	 }
 }
