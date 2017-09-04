@@ -52,6 +52,10 @@ body {
 	letter-spacing: .25em;
 }
 
+#mobileimg {
+	display: none;
+}
+
 #divider {
 	margin: 5% auto 2% auto;
 	text-align: center;
@@ -212,7 +216,7 @@ aside {
 	padding: 2%;
 	width: 20%;
 	font-weight: 400;
-	letter-spacing: .25em;
+	letter-spacing: .2em;
 }
 
 #travelback {
@@ -357,6 +361,11 @@ footer {
 	 }
 }
 
+@media only screen and (max-width: 1277px) {
+	#travelbackbutton {
+		width: 30%;
+	}
+}
 
 @media only screen and (max-width: 983px) {
 	.toplinks {
@@ -367,6 +376,12 @@ footer {
 	}
 	aside {
 		width: 25%;
+	}
+}
+
+@media only screen and (max-width: 930px) {
+	body {
+		font-size: 12px;
 	}
 }
 
@@ -397,7 +412,6 @@ footer {
 		font-size: 2.5em;
 		font-weight: 100;
 		text-align: left;
-		padding-left: 1%;
 		margin: 0;
 		display: inline;
 	}
@@ -452,13 +466,28 @@ footer {
 		width: 70%;
 	}
 
-}
-
-@media only screen and (max-width: 790px) {
 	#travelbackbutton {
 		width: 25%;
+	}
+
 }
 
-@media only screen and (max-width: 605px) {
-	
+@media only screen and (max-width: 600px) {
+	#slogan {
+		background-image: none;
+		height: 2em;
+		margin: 2% auto;
+		font-size: 1em;
+		font-weight: 400;
+		text-align: left;
+		color: #222222;
+	    line-height: 1em;
+	    display: block;
+	}
+	#mobileimg {
+	display: block;
+	}
 }
+
+
+
