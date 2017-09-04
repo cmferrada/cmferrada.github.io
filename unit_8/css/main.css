@@ -448,3 +448,9 @@ footer {
 @media only screen and (max-width: 605px) {
 	
 }
+
+@media only screen and (min-width: 1800px) {
+	body { 
+	font-size: 72px;
+	 }
+}
