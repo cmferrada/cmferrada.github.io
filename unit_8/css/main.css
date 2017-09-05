@@ -526,11 +526,7 @@ footer {
 	}
 }
 
-
-@media only screen and (max-width: 370px) {
-	#travelbackbutton {
-		width: 40%;
-	}
+@media only screen and (max-width: 435px) {
 	#asideleft {
 		float: none;
 		width: auto;
@@ -541,5 +537,11 @@ footer {
 	}
 	aside {text-align: center;
 		padding: 3%;
+	}
+}
+
+@media only screen and (max-width: 370px) {
+	#travelbackbutton {
+		width: 40%;
 	}
 }
