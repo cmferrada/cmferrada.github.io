@@ -44,6 +44,10 @@ body {
 	display: block;
 }
 
+#burgerenav {
+	display:none; 
+ }
+
 #slogan {
 	font-size: 1.25em;
 	margin-top: 16%;
@@ -351,9 +355,6 @@ footer {
 	color: black;
 }
 
-#mobilenav {
-	display:none; 
- }
 
 @media only screen and (min-width: 1800px) {
 	body { 
@@ -393,12 +394,22 @@ footer {
 	#hamburger {
 		display: block;
 	}
-	#hamburger:hover ~ #mobile {
+
+	#hamburger:hover ~ #burgernav {
 		display:block;
 	}
 
-	#mobile a:hover {
+	#burgernav a:hover {
 		display: block;
+	}
+
+	.burgerlinks {
+		text-decoration: none;
+		border-bottom: none;
+		/*display: block;*/
+		width: auto;
+		padding: 2%;
+		text-align: right;
 	}
 
 	#main_header {
