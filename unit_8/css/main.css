@@ -508,4 +508,38 @@ footer {
 	}
 }
 
+@media only screen and (max-width: 522px) {
+	#travelbackbutton {
+		width: 30%;
+	}
+}
 
+@media only screen and (max-width: 435px) {
+	#travelbackbutton {
+		width: 35%;
+	}
+}
+
+@media only screen and (max-width: 417px) {
+	#slogan {
+		letter-spacing: .1em;
+	}
+}
+
+
+@media only screen and (max-width: 370px) {
+	#travelbackbutton {
+		width: 40%;
+	}
+	#asideleft {
+		float: none;
+		width: auto;
+	}
+	#asideright {
+		float: none;
+		width: auto;
+	}
+	aside {text-align: center;
+		padding: 3%;
+	}
+}
