@@ -1,0 +1,558 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Quicksand:300,400,700");
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Quicksand, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #222222;
+}
+
+#sitewrapper {
+	/*max-width: 87.5em;*/
+	width: 85%;
+	margin: 0 auto;
+	padding: 1% 2.5%;
+/*	background-color: #7e6ff3;*/
+}
+
+#main_header {
+	background-image: url(../images/IMG_5179.jpg);
+	background-position: center;
+	padding-top: 7%;
+	padding-bottom: 15%;
+	background-size: cover;
+	color: #FFFFFF;
+}
+
+#hamburger {
+	width: 35px;
+	display:none;
+	float: right;
+	margin-top: 2%;
+}
+
+#hamburger span {
+	height: 4px;
+	margin: 2px auto;
+	width: 100%;
+	background-color: black;
+	display: block;
+}
+
+#burgernav {
+	display:none; 
+ }
+
+#slogan {
+	font-size: 1.25em;
+	margin-top: 16%;
+	margin-right: 10%;
+	text-align: right;
+	letter-spacing: .25em;
+}
+
+#mobileimg {
+	display: none;
+}
+
+#divider {
+	margin: 5% auto 2% auto;
+	text-align: center;
+	display: block;
+	letter-spacing: .25em;
+	line-height: 1em;
+}
+
+#travel {
+	margin: 1% auto;
+	padding: 0;
+	letter-spacing: .5em;
+}
+
+#topnav {
+	border: 1px #666666 solid;
+	margin: 3% auto;
+	padding: 1.5%;
+	background: white;
+	width: 97%
+}
+
+#topnavwrapper {
+	margin: 0 auto;
+	text-align: center;
+	line-height: 2em;
+}
+
+.toplinks {
+	display: inline-block;
+	padding: 0 2%;
+	text-decoration: none;
+	border-bottom: none;
+	font-weight: 400;
+	letter-spacing: .15em;
+}
+
+.toplinks:hover {
+	font-weight: 700;
+	color: black;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0; 
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+
+
+section {
+}
+
+main {
+	text-align: left;
+	float: left;
+	width: 65%;
+}
+
+article {
+	text-align: left; 
+	margin: 5% 0;
+	padding: 5%;
+	border: 1px #666666 solid;
+	background: white;
+} 
+
+.article_header {
+	display: inline;
+}
+
+.location {
+	font-size: 1.5em;
+	display: inline;
+	text-decoration: none;
+	border-bottom: none;
+	letter-spacing:.1em;
+}
+
+h1, h2, h3 {
+	font-family: Abril Fatface, Georgia, serif;
+}
+
+h1 {
+	font-size: 4.5em;
+	font-weight: 300;
+	text-align: left;
+	margin-left: 15%;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-family: Abril Fatface, Georgia, serif; 
+	display: inline;
+}
+
+h3 {
+	font-size: 1.125em;
+	text-align: right;
+}
+
+
+p {
+	letter-spacing: .1em;
+	line-height: 1.5em;
+	margin: 4% 0;
+}
+
+img {
+	max-width: 100%;
+	margin: 2% 0;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: #333333;
+	border-bottom: 1px solid #000;
+	padding-bottom:2px;
+}
+
+a:hover {
+	font-weight: 400;
+	color: black;
+}
+
+hr{
+	border:none;
+	height:1px;
+	background-color: #333333;
+	width: 100%;
+	margin: 1% 0;
+}
+
+aside {
+	width: 22%;
+	text-align: center; 
+	padding: 2%;
+	border: 1px #666666 solid;
+	margin: 3% 0;
+	display: block;
+	float: right;
+	background: white;
+}
+
+.chevron {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#buttons {}
+
+#travelbackbutton {
+	border: 1px #666666 solid;
+	margin: 5% 0;
+	padding: 2%;
+	width: 20%;
+	font-weight: 400;
+	letter-spacing: .2em;
+}
+
+#travelback {
+	text-decoration: none;
+	border-bottom: none;
+}
+
+#travelback:hover {
+	font-weight: 700;
+	color: black;
+}
+
+.aside {
+	margin: 5% auto;
+	text-align: center;
+}
+
+.asidepics {
+	font-size: 1.15em;
+	margin: 7% auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 250px;
+	height: 150px;
+	display: block;
+	text-decoration: none;
+	border-bottom: none;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: .25em;
+    line-height: 1em;
+  	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+
+#followpic {
+	background-image: url(../images/thumbnails/hike.jpg);
+}
+
+#followpic:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/hike.jpg);
+}
+
+#destinationpic {
+	background-image: url(../images/thumbnails/portland.jpg);
+}
+
+#destinationpic:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/portland.jpg);
+}
+
+#airbnbpic {
+	background-image: url(../images/thumbnails/garage.jpg);
+}
+
+#airbnbpic:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/garage.jpg);
+}
+
+#restaurantpic {
+	background-image: url(../images/thumbnails/brunch.jpg);
+}
+
+#restaurantpic:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/brunch.jpg);
+}
+
+#barpic {
+	background-image: url(../images/thumbnails/cocktails.jpg);
+}
+
+#barpic:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/cocktails.jpg);
+}
+
+#activitypic {
+	background-image: url(../images/thumbnails/wine.jpg);
+}
+
+#activitypic:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/wine.jpg);
+}
+
+#contactpic {
+	background-image: url(../images/thumbnails/pool.jpg);
+}
+
+#contactpic:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/thumbnails/pool.jpg);
+}
+
+footer {
+	display: inline-block;
+    border: 1px #666666 solid;
+    clear: both;
+    padding: 1%;
+    background: white;
+    width: 97%;
+}
+
+#footernav {
+}
+
+#footerleft {
+	float:left;
+	margin-right: 2%;
+}
+
+.footerlinks {
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: none;
+	margin: 0 2%;
+	padding-top: .5%;
+	float: right;
+	font-weight: 400;
+	letter-spacing: .15em;
+}
+
+.footerlinks:hover {
+	font-weight: 700;
+	color: black;
+}
+
+
+@media only screen and (min-width: 1800px) {
+	body { 
+	font-size: 22px;
+	 }
+}
+
+@media only screen and (max-width: 1277px) {
+	#travelbackbutton {
+		width: 30%;
+	}
+}
+
+@media only screen and (max-width: 983px) {
+	.toplinks {
+		padding: 0 1%;
+	}
+	article {
+		padding: 3%;
+	}
+	aside {
+		width: 25%;
+	}
+}
+
+@media only screen and (max-width: 930px) {
+	body {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 823px) {
+	.desktoponly {
+		display: none;
+	}
+
+	#hamburger {
+		display: block;
+	}
+
+	#hamburger:hover ~ #burgernav {
+		display:block;
+	}
+
+	#burgernav a:hover {
+		display: block;
+	}
+
+	.burgerlinks {
+		text-decoration: none;
+		border-bottom: none;
+		/*display: block;*/
+		width: auto;
+		padding: 2%;
+		text-align: right;
+	}
+
+	#main_header {
+		background-image: none;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		color: #222222;
+	}
+
+	h1 {
+		font-size: 2.5em;
+		font-weight: 100;
+		text-align: left;
+		margin: 0;
+		display: inline;
+	}
+
+	#slogan {
+		background-image: url(../images/IMG_5179.jpg);
+		background-position: center;
+		background-size: cover;
+		height: 400px;
+		margin: 2% auto;
+		font-weight: 400;
+		text-align: center;
+		color: #FFFFFF;
+	    line-height: 1em;
+	  	display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	            justify-content: center;
+	    -webkit-box-orient: vertical;
+	    -webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	            flex-direction: column;
+	}
+
+	#topnav {
+		border: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	main {
+		float: none;
+		width: 100%;
+	}
+	aside {
+		float: none;
+		margin: 5% auto;
+		width: 94%;
+		border: none;
+		background-color: #222222;
+		color: #FFFFFF;
+	}
+	#asideleft {
+		float: left;
+		width: 26%;
+		margin: 0 2%;
+	}
+	#asideright {
+		float: right;
+		width: 70%;
+	}
+
+	#travelbackbutton {
+		width: 25%;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+	#slogan {
+		background-image: none;
+		height: 2em;
+		margin: 2% auto;
+		font-size: 1em;
+		font-weight: 400;
+		text-align: left;
+		color: #222222;
+	    line-height: 1em;
+	    display: block;
+	}
+	#mobileimg {
+	display: block;
+	position: 
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	body {
+		font-size: 11px;
+	}
+}
+
+@media only screen and (max-width: 531px) {
+	footer {
+		text-align: center;
+	}
+	.footerlinks {
+		float: none;
+	}
+	#footerleft {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 522px) {
+	#travelbackbutton {
+		width: 30%;
+	}
+}
+
+@media only screen and (max-width: 435px) {
+	#travelbackbutton {
+		width: 35%;
+	}
+}
+
+@media only screen and (max-width: 417px) {
+	#slogan {
+		letter-spacing: .1em;
+	}
+}
+
+@media only screen and (max-width: 435px) {
+	#asideleft {
+		float: none;
+		width: auto;
+	}
+	#asideright {
+		float: none;
+		width: auto;
+	}
+	aside {text-align: center;
+		padding: 3%;
+	}
+}
+
+@media only screen and (max-width: 370px) {
+	#travelbackbutton {
+		width: 40%;
+	}
+}
