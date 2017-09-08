@@ -369,6 +369,26 @@ footer {
 	}
 }
 
+@media only screen and (max-width: 1125px) {
+	h1 {
+		margin-left: 10%;
+	}
+	#slogan {
+		margin-right: 5%;
+	}
+}
+
+
+
+@media only screen and (max-width: 1056px) {
+	#sitewrapper {
+	width: 95%;
+	}
+	aside {
+		width: 28%;
+	}
+}
+
 @media only screen and (max-width: 983px) {
 	.toplinks {
 		padding: 0 1%;
@@ -378,16 +398,6 @@ footer {
 	}
 	aside {
 		width: 25%;
-	}
-}
-
-@media only screen and (max-width: 1056px) {
-
-	#sitewrapper {
-	width: 95%;
-	}
-	aside {
-		width: 28%;
 	}
 }
 
@@ -530,6 +540,11 @@ footer {
 @media only screen and (max-width: 435px) {
 	#travelbackbutton {
 		width: 40%;
+	}
+	.location {
+		display: block;
+		font-size: 1.25em;
+
 	}
 }
 @media only screen and (max-width: 325px) {
