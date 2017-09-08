@@ -329,6 +329,7 @@ footer {
     padding: 1%;
     background: white;
     width: 97%;
+    margin-bottom: 3%;
 }
 
 #footernav {
@@ -482,9 +483,10 @@ footer {
 
 
 @media only screen and (max-width: 580px) {
-	body {
-		font-size: 12px;
+	#travelbackbutton {
+		width: 30%;
 	}
+
 }
 
 @media only screen and (max-width: 531px) {
@@ -501,23 +503,11 @@ footer {
 
 @media only screen and (max-width: 522px) {
 	#travelbackbutton {
-		width: 30%;
-	}
-}
-
-@media only screen and (max-width: 435px) {
-	#travelbackbutton {
 		width: 35%;
 	}
 }
 
-@media only screen and (max-width: 417px) {
-	#slogan {
-		letter-spacing: .1em;
-	}
-}
-
-@media only screen and (max-width: 435px) {
+@media only screen and (max-width: 487px) {
 	#asideleft {
 		float: none;
 		width: auto;
@@ -531,8 +521,28 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 475px) {
+	body {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 435px) {
 	#travelbackbutton {
 		width: 40%;
 	}
 }
+@media only screen and (max-width: 325px) {
+	#slogan {
+		letter-spacing: .1em;
+	} 
+	#travelbackbutton {
+		width: 42%;
+	}
+	.footerlinks {
+		display: block;
+		padding: 3%;
+	}
+}
+
+
