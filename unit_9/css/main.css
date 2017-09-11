@@ -13,8 +13,8 @@ body {
 }
 
 #sitewrapper {
-	/*max-width: 87.5em;*/
-	width: 85%;
+	max-width: 1600px;
+	/*width: 85%;*/
 	margin: 0 auto;
 	padding: 1% 2.5%;
 /*	background-color: #7e6ff3;*/
@@ -46,6 +46,10 @@ body {
 
 #burgernav {
 	display:none; 
+ }
+
+ .open {
+ 	display: block !important;
  }
 
 #slogan {
