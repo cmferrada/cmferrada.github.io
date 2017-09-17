@@ -13,11 +13,10 @@ body {
 }
 
 #sitewrapper {
-	max-width: 1600px;
-	/*width: 85%;*/
+	/*max-width: 1600px;*/
+	width: 85%;
 	margin: 0 auto;
 	padding: 1% 2.5%;
-/*	background-color: #7e6ff3;*/
 }
 
 #main_header {
@@ -393,7 +392,7 @@ footer {
 
 @media only screen and (max-width: 1056px) {
 	#sitewrapper {
-	width: 95%;
+		width: 95%;
 	}
 	aside {
 		width: 28%;
@@ -432,10 +431,11 @@ footer {
 	.burgerlinks {
 		text-decoration: none;
 		border-bottom: none;
-		/*display: block;*/
+		display: block;
 		width: auto;
-		padding: 2%;
-		text-align: right;
+		padding: 3%;
+		text-align: center;
+		border: 1px #666666 solid;
 	}
 
 	#main_header {
