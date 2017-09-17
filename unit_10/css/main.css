@@ -361,6 +361,13 @@ footer {
 }
 
 
+.typeform-widget {
+	border: 1px #666666 solid;
+	margin: 5% 0;
+}
+
+
+
 @media only screen and (min-width: 1800px) {
 	body { 
 	font-size: 20px;
