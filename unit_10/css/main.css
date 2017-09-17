@@ -59,6 +59,10 @@ body {
 	letter-spacing: .25em;
 }
 
+#mobileinsta {
+	display: none;
+}
+
 #mobileimg {
 	display: none;
 }
@@ -416,8 +420,21 @@ footer {
 		display: none;
 	}
 
+	#mobileinsta {
+		display: inline;
+	}	
+
+	#mobilesinsta a {
+		text-decoration: none;
+		border-bottom: none;	
+	}
+
 	#hamburger {
 		display: block;
+	}
+
+	#burgernav {
+		margin: 5% 0;
 	}
 
 	#hamburger:hover ~ #burgernav {
@@ -433,7 +450,7 @@ footer {
 		border-bottom: none;
 		display: block;
 		width: auto;
-		padding: 3%;
+		padding: 5%;
 		text-align: center;
 		border: 1px #666666 solid;
 	}
@@ -499,15 +516,22 @@ footer {
 	#travelbackbutton {
 		width: 25%;
 	}
-
 }
-
 
 @media only screen and (max-width: 580px) {
 	#travelbackbutton {
 		width: 30%;
 	}
-
+	
+	.burgerlinks {
+		text-decoration: none;
+		border-bottom: none;
+		display: block;
+		width: auto;
+		padding: 5%;
+		text-align: center;
+		border: 1px #666666 solid;
+	}
 }
 
 @media only screen and (max-width: 531px) {
@@ -558,6 +582,7 @@ footer {
 
 	}
 }
+
 @media only screen and (max-width: 325px) {
 	#slogan {
 		letter-spacing: .1em;
