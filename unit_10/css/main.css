@@ -95,6 +95,10 @@ body {
 	line-height: 2em;
 }
 
+.burgerlinks {
+	width: 100%;
+}
+
 .toplinks {
 	display: inline-block;
 	padding: 0 2%;
@@ -370,6 +374,10 @@ footer {
 }
 
 
+.open {
+	display: none;
+}
+
 
 @media only screen and (min-width: 1800px) {
 	body { 
@@ -421,7 +429,15 @@ footer {
 	}
 
 	#mobileinsta {
-		display: inline;
+		    display: inline-block;
+	    float: right;
+	    position: relative;
+	    padding-top: 1.2rem;
+	    padding-right: 1rem;
+	}
+
+	#mobileinsta a {
+		border-bottom: none;
 	}	
 
 	#hamburger {
@@ -432,11 +448,12 @@ footer {
 	#burgernav {
 		margin: 8% 0;
 		float: right;
+		width: 200px;
 	}
 
-	#hamburger:hover ~ #burgernav {
+	/*#hamburger:hover ~ #burgernav {
 		display:block;
-	}
+	}*/
 
 	#burgernav a:hover {
 		/*display: block;*/
@@ -462,7 +479,7 @@ footer {
 
 	#main_header a {
 		text-decoration: none;
-		border-bottom: none;
+
 	}
 
 	h1 {
@@ -542,6 +559,7 @@ footer {
 	#burgernav {
 		margin: 8% 0;
 		float: none;
+		width: 100%;
 	}
 	.burgerlinks {
 		text-decoration: none;
