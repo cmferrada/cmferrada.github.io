@@ -424,17 +424,14 @@ footer {
 		display: inline;
 	}	
 
-	#mobilesinsta a {
-		text-decoration: none;
-		border-bottom: none;	
-	}
-
 	#hamburger {
 		display: block;
+		margin-top: 3%;
 	}
 
 	#burgernav {
-		margin: 5% 0;
+		margin: 8% 0;
+		float: right;
 	}
 
 	#hamburger:hover ~ #burgernav {
@@ -442,7 +439,7 @@ footer {
 	}
 
 	#burgernav a:hover {
-		display: block;
+		/*display: block;*/
 	}
 
 	.burgerlinks {
@@ -450,9 +447,10 @@ footer {
 		border-bottom: none;
 		display: block;
 		width: auto;
-		padding: 5%;
+		padding: 15%;
 		text-align: center;
 		border: 1px #666666 solid;
+		width: 100%;
 	}
 
 	#main_header {
@@ -460,6 +458,11 @@ footer {
 		padding-top: 2%;
 		padding-bottom: 2%;
 		color: #222222;
+	}
+
+	#main_header a {
+		text-decoration: none;
+		border-bottom: none;
 	}
 
 	h1 {
@@ -518,11 +521,28 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 593px) {
 	#travelbackbutton {
 		width: 30%;
 	}
-	
+	#asideleft {
+		float: none;
+		width: auto;
+	}
+	#asideright {
+		float: none;
+		width: auto;
+	}
+	aside {text-align: center;
+		padding: 3%;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	#burgernav {
+		margin: 8% 0;
+		float: none;
+	}
 	.burgerlinks {
 		text-decoration: none;
 		border-bottom: none;
@@ -534,7 +554,7 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 531px) {
+@media only screen and (max-width: 557px) {
 	footer {
 		text-align: center;
 	}
@@ -583,10 +603,26 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 325px) {
+@media only screen and (max-width: 406px) {
 	#slogan {
-		letter-spacing: .1em;
-	} 
+			letter-spacing: .13em;
+		} 
+
+	#travel {
+		margin: 1% auto;
+		padding: 0;
+		letter-spacing: .3em;
+	}
+}
+
+
+@media only screen and (max-width: 335px) {
+	#hamburger {
+		margin-top: 5%;
+	}
+	#slogan {
+			letter-spacing: .1em;
+		} 
 	#travelbackbutton {
 		width: 42%;
 	}
